@@ -1,0 +1,145 @@
+/*MADE BY Novak203 */
+/*Febuary 19th of 2025*/
+
+body
+{
+    padding:0px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(92,14,107,1) 49%, rgba(252,70,107,1) 100%);
+}
+
+#container
+{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#Calculator
+{
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0,0.4);
+  display:inline-block;
+  border-radius: 6px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 16px 37px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 16px 37px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 16px 37px 1px rgba(0, 0, 0, 1);
+ 
+}
+
+.NUMBER_BUTTON
+{
+ background-color: rgb(22, 22, 22);
+ font-size: 42px;
+ height: 72px;
+ width: 72px;
+ margin:3px 3px;
+ border: none;
+ border-radius: 6px; 
+ color:white;
+ transition: 0.1s;
+}
+
+.NUMBER_BUTTON:hover
+{
+    background-color: rgb(42, 42, 42);
+}
+
+.OPERATOR_BUTTON
+{
+ background-color: rgb(61, 61, 61);
+ font-size: 42px;
+ height: 72px;
+ width: 72px;
+ margin:3px 3px;
+ border: none;
+ border-radius: 6px; 
+ color:white;
+ transition: 0.1s;
+}
+
+.OPERATOR_BUTTON:hover
+{
+    background-color: rgb(101, 101, 101);
+}
+
+#CLEAR_BUTTON
+{
+ background-color: rgb(129, 0, 0);
+ font-size: 36px;
+ height: 72px;
+ width: 155px;
+ margin:3px;
+ border: none;
+ border-radius: 6px; 
+ color:white;
+ transition: 0.1s;
+}
+
+#CLEAR_BUTTON:hover
+{
+    background-color: rgb(169, 0, 0);
+}
+
+#CLEAREVERYTHING_BUTTON
+{
+ background-color: rgb(129, 0, 0);
+ font-size: 36px;
+ height: 72px;
+ width: 72px;
+ margin:3px;
+ border: none;
+ border-radius: 6px; 
+ color:white;
+ transition: 0.1s;
+}
+
+#CLEAREVERYTHING_BUTTON:hover
+{
+    background-color: rgb(169, 0, 0);
+}
+
+#EQUALS_BUTTON
+{
+ background-color: rgb(182, 185, 0);
+ font-size: 42px;
+ height: 72px;
+ width: 155px;
+ margin:3px;
+ border: none;
+ border-radius: 6px; 
+ color:white;
+ transition: 0.1s;
+}
+
+#EQUALS_BUTTON:hover
+{
+    background-color: rgb(222, 235, 0);
+}
+
+
+#CUSTOM_INPUT_BOX
+{
+    border: none;
+    border-style: none;
+    border-radius: 6px;
+    text-align: right;
+    margin-bottom: 10px;
+    color:rgb(116, 116, 116);
+    height: 72px;
+    box-sizing: border-box;
+    max-width: 329px;
+    font-size: 42px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#CUSTOM_INPUT_BOX:focus
+{
+    outline:none;
+}
+

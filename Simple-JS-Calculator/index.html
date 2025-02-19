@@ -1,0 +1,50 @@
+<!-- MADE BY Novak203 -->
+<!-- Febuary 19th of 2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Simple Calculator</title>
+
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="Calculator">
+            <input type="text" id="CUSTOM_INPUT_BOX" autocomplete="off" readonly value="0">
+            <br>
+            <button onclick="ClearEverything()" id="CLEAREVERYTHING_BUTTON">CE</button>
+            <button onclick="Clear()" id="CLEAR_BUTTON">C</button>
+            <button onclick="ApplyOperator('/')" class="button OPERATOR_BUTTON">÷</button>
+            <br>
+            <button onclick="ApplyNumber('7')" class="button NUMBER_BUTTON">7</button>
+            <button onclick="ApplyNumber('8')" class="button NUMBER_BUTTON">8</button>
+            <button onclick="ApplyNumber('9')" class="button NUMBER_BUTTON">9</button>
+            <button onclick="ApplyOperator('*')" class="button OPERATOR_BUTTON">x</button>
+            <br>
+            <button onclick="ApplyNumber('4')"class="button NUMBER_BUTTON">4</button>
+            <button onclick="ApplyNumber('5')"class="button NUMBER_BUTTON">5</button>
+            <button onclick="ApplyNumber('6')" class="button NUMBER_BUTTON">6</button>
+            <button onclick="ApplyOperator('-')"class="button OPERATOR_BUTTON">-</button>
+            <br>
+            <button onclick="ApplyNumber('1')" class="button NUMBER_BUTTON">1</button>
+            <button onclick="ApplyNumber('2')"class="button NUMBER_BUTTON">2</button>
+            <button onclick="ApplyNumber('3')"class="button NUMBER_BUTTON">3</button>
+            <button onclick="ApplyOperator('+')" class="button OPERATOR_BUTTON">+</button>
+            <br>
+            <button onclick="ApplyNumber('0')" class="button NUMBER_BUTTON">0</button>
+            <button onclick="Calculate()" id="EQUALS_BUTTON">=</button>
+            <button onclick="ApplyNumber('.')" class="button OPERATOR_BUTTON">.</button>
+          </div>
+          
+    </div>
+    
+ 
+<script src="scripts.js" defer></script>
+</body>
+</html>
